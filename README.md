@@ -4,7 +4,7 @@ Script to install GUI on Ubuntu Server iso (LTS/non-LTS). Minimalism is upto tas
 
 ### Download Ubuntu Server
 
-Download from <https://ubuntu.com/download/server> and install the ISO using any imaging tool. 
+Download from <https://ubuntu.com/download/server> and install the ISO using any imaging tool, eg- (Ventoy, BalenaEtcher, Rufus). 
 
 ### Installation Guide
 
