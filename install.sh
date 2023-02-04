@@ -28,5 +28,13 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo nala update
 sudo nala install brave-browser -y
 
+#AppImage runer
+nala install fuse libfuse2
+modprobe fuse
+groupadd fuse
+
+user="$(whoami)"
+usermod -a -G fuse $user
+
 #Set target to graphical
 systemctl set-default graphical.target
