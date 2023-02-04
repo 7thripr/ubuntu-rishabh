@@ -1,5 +1,5 @@
 # ubuntu-rishabh
-script to install GUI on Ubuntu Server iso (LTS/non-LTS). Minimalism is upto tasksel. 
+Script to install GUI on Ubuntu Server iso (LTS/non-LTS). Minimalism is upto tasksel. Because Windows 11 wants Secure boot and I want goodness of server and use my desktop power when i am not at home.
 
 
 ### Download Ubuntu Server
