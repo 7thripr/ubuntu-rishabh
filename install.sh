@@ -29,9 +29,7 @@ sudo nala update
 sudo nala install brave-browser -y
 
 #AppImage runer
-nala install fuse libfuse2
-modprobe fuse
-groupadd fuse
+nala install libfuse2
 
 user="$(whoami)"
 usermod -a -G fuse $user
