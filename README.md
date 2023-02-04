@@ -14,7 +14,7 @@ cd ubuntu-rishabh
 sudo ./install.sh
 ```
 
-### Nvidia driver network issue fix
+### Installing nVidia driver network issue fix
 
 ```
 sudo systemctl stop NetworkManager
