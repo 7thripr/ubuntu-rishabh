@@ -31,8 +31,5 @@ sudo nala install brave-browser -y
 #AppImage runer
 nala install libfuse2
 
-user="$(whoami)"
-usermod -a -G fuse $user
-
 #Set target to graphical
 systemctl set-default graphical.target
